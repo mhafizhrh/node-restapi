@@ -1,4 +1,4 @@
-import { QueryResult, RowDataPacket } from 'mysql2/promise'
+import { RowDataPacket } from 'mysql2/promise'
 import { mysqlConnection } from '../database'
 
 export interface IAuthRepository {
